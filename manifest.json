@@ -4,7 +4,9 @@
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "icon16.png",
+    "default_title": "Password Generator"
   },
 
   "icons": {
@@ -14,7 +16,7 @@
   },
 
   "background": {
-    "scripts": ["eventPage.js"],
+    "scripts": ["background.js"],
     "persistent": false
   },
 
